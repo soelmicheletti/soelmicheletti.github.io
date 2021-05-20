@@ -463,7 +463,6 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__links {
-    display: flex;
     align-items: center;
 }
 
@@ -473,7 +472,6 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__list {
     /* list-style-type: square; */
-    display :flex;
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
 }
