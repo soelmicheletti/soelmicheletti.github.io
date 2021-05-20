@@ -468,11 +468,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    display:flex;
+   /* flex: 0 0 30%; */
 }
 
 .work__list {
     /* list-style-type: square; */
+    display :flex;
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
 }
