@@ -551,8 +551,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo-container {
-    /*margin-bottom: var(--gutter-normal);*/
-    height:200px;
+    margin-bottom: var(--gutter-normal);
 }
 
 @media(min-width: 901px) {
