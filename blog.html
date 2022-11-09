@@ -34,17 +34,7 @@
   
 <body>
   <main role="main"> 
-    
-     <button class="accordion">Section 1</button>
-      <div class="panel">
-        <p>Lorem ipsum daje...</p>
-      </div>
-
-    <button class="accordion">Section 2</button>
-      <div class="panel">
-        <p>Lorem ipsum prova</p>
-      </div>
-    
+        
     <section class="blog" id="blog">
       <div class = "row">
         <h2>Research</h2>
@@ -116,68 +106,6 @@
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
- <style>
- .accordion {
-  background-color: #999999;
-  color: #black;
-  cursor: pointer;
-  padding: 18px;
-  width: 55%;
-  text-align: center;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #999999;
-}
-.panel {
-  padding: 0 18px;
-  background-color: green;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
- .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-</style>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-</script>
   <script src="./index.js"></script>
 </body>
 
