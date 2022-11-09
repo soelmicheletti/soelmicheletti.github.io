@@ -40,15 +40,6 @@
     </div>
   </progress>
 
-  <!-- Content -->
-  <div class="content">
-    
-  <h1>Projects</h1>
-  <p>Here you can find a collection of different problems, challenges and frameworks divided by field that I have solved and implemented during the last few years and I can share publicly (or at least part of them). If you are interested in further details don't hesitate to contact me privately.
-  </p>
-
-</div>
-
 
   <!-- Core JavaScript Files -->
   <script src="/assets/js/jquery.min.js" type="text/javascript"></script>
@@ -173,6 +164,63 @@
 
   <main role="main">
     
+     <div class="panel-group" id="accordion">
+       
+       <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title" data-toggle="collapse" data-target="#AccordionML">Machine Learning</h4>
+          </div>
+         
+         <div id="AccordionML" class="panel-collapse collapse">
+            <div class="panel-body">
+          
+            <!-- Deep Learning -->
+              <div class="panel panel-default">
+                <div class="panel-heading panel-heading-full">
+                  <h5 class="panel-title" data-toggle="collapse" data-target="#AccordionDL">Deep Learning</h5>
+                </div>
+            
+              <div id="AccordionDL" class="panel-collapse collapse">
+                <div class="panel-body">
+
+                <ul style="list-style-type:none;">
+                
+                  <li>
+                    <h6>
+                      <b><a href="https://github.com/vita-epfl/causalmotion" target="_blank">Causal Motion Forecasting</a></b>
+                      [Code: <a href="https://github.com/vita-epfl/causalmotion" target="_blank"><i class="fab fa-github gh-icon"></i></a>,
+                      Report: <a href="https://arxiv.org/abs/2111.14820" target="_blank"><i class="fas fa-file-alt gh-icon"></i></a>,
+                      Presentation: <a href="https://drive.google.com/file/d/1Uo0Y0eHq4vI7wOxya4mJlxbAe3U4kMx6/view" target="_blank"><i class="fab fa-youtube gh-icon"></i></a>]
+                    </h6>
+                    <p>
+                      <small><i>
+                       Official implementation for the paper 'Towards Robust and Adaptive Motion Forecasting: A Causal Representation Perspective'.
+                      </i></small>
+                    </p>
+                  </li>
+
+                  <li>
+                    <h6>
+                      <b><a href="https://github.com/riccardocadei/pneumoniadiagnosis" target="_blank">Pneumonia Diagnosis</a></b>
+                      [Code: <a href="https://github.com/riccardocadei/pneumoniadiagnosis" target="_blank"><i class="fab fa-github gh-icon"></i></a>,
+                      Report: <a href="https://github.com/riccardocadei/pneumoniadiagnosis/blob/main/reports/Final%20Report.pdf" target="_blank"><i class="fas fa-file-alt gh-icon"></i></a>,
+                      Presentation: <a href="https://github.com/riccardocadei/pneumoniadiagnosis/blob/main/reports/Final%20Presentation%20(video).mp4" target="_blank"><i class="fab fa-youtube gh-icon"></i></a>]
+                    </h6>
+                    <p>
+                      <small><i>
+                        Proposing 2 ideas towards a robust and adaptable diagnosis of pneumonia from Chest X-Ray images: (i) discard the spurious feature replacing ERM with a robust training routine (i.e. IRM and v-REx); (ii) replace the straight-forward deep neural networks with a new modular architecture, encoding separately the invariant features (in a self-supervised fashion) and the style confounders.
+                      </i></small>
+                    </p>
+                  </li>
+                </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+        </div>
+     </div>
+    
     <section class="blog" id="blog">
       <div class = "row">
         <h2>Research</h2>
@@ -185,7 +233,6 @@
       </div>
       <div class = "row">
         <h2>Blog</h2>
-      </div>
       
       
       <div class="row">
