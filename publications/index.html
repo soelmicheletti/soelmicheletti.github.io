@@ -73,196 +73,85 @@
     </div>
   </progress>
 
-  <!-- Content -->
-  <div class="content">
-    
-  <h1>Publications</h1>
-  
-  <p>
-    Current research projects:
-    <ul>
-
-      <li>
-        Interpretable Inference of Heterogeneous Treatment Effects (1 methodological paper, 3 applied papers, 1 software paper)
-        at <a href="https://www.hsph.harvard.edu/nsaph/" target="_blank">National Studies on Air Pollution and Health Software</a> at Harvard;
-      </li>
-
-      <li>
-        Development and release of Bayesian Causal Forest with Instrumental Variable algorithm package and (1 software paper)
-        at <a href="https://www.hsph.harvard.edu/nsaph/" target="_blank">National Studies on Air Pollution and Health Software</a> at Harvard;
-      </li>
-    </ul>
-    
-    Stopped/Not published research projects:
-    <ul>
-
-      <li>
-        Deep Learning for Causal Modeling and interpretation of acoustic subsurface data for anomaly detection and hazard prevention at <a href="http://media.corporate-ir.net/media_files/irol/97/97513/2017ar/interactive/research-center.html" target="_blank">Schlumberger-Doll Research</a>;
-      </li>
-
-      <li>
-        Upper-body Posture Detection using Deep Learning at <a href="https://www.epfl.ch/labs/mlo/igh-intelligent-global-health/" target="_blank">Intelligent Global Health Lab</a> at EPFL.
-      </li>
-
-    </ul>
-   
-    List of my publications in reversed chronological order.
-  </p>
-
-  <!--2022-->
-  <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-    <div class="col-sm-11 p-0">
-
-      <!--Yuehiang 2022 CVPR-->
-      <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
-        <div class="col-sm-1 p-0 abbr">
-          <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://cvpr2022.thecvf.com/" target="_blank">
-          CVPR
-          </a>
-        </div>
-        
-        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-          <div id="yuehiang2021" class="col p-0">
-            <h5 class="title mb-0">Towards Robust and Adaptive Motion Forecasting: A Causal Representation Perspective (long)</h5>
-            <div class="author">
-              <em> 
-                Yuejiang Liu;
-                <b>Riccardo Cadei</b>;
-                Jonas Schweizer;
-                Sherwin Bahmani;
-                <a href="https://scholar.google.com/citations?user=UIhXQ64AAAAJ&hl=en" target="_blank">Alexandre Alahi</a>
-              </em>  
-            </div>
-
-            <div><p class="periodical font-italic">
-                IEEE Conference on Computer Vision and Pattern Recognition, 2022
-              </p>
-            </div>
-    
-            <div class="col p-0">
-              <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#yuejiang2022cvpr-abstract" role="button" aria-expanded="false" aria-controls="yuejiang2022cvpr-abstract">Abstract</a>
-              <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/abs/2111.14820" target="_blank">arxiv</a>
-              <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/vita-epfl/causalmotion" target="_blank">Code</a>
-            </div>
-    
-            <div class="col mt-2 p-0">
-              <div id="yuejiang2022cvpr-abstract" class="collapse">
-                <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                  Learning behavioral patterns from observational data has been a de-facto approach to motion forecasting. Yet, the current paradigm suffers from two shortcomings: brittle under covariate shift and inefficient for knowledge transfer. In this work, we propose to address these challenges from a causal representation perspective. We first introduce a causal formalism of motion forecasting, which casts the problem as a dynamic process with three groups of latent variables, namely invariant mechanisms, style confounders, and spurious features. We then introduce a learning framework that treats each group separately: (i) unlike the common practice of merging datasets collected from different locations, we exploit their subtle distinctions by means of an invariance loss encouraging the model to suppress spurious correlations; (ii) we devise a modular architecture that factorizes the representations of invariant mechanisms and style confounders to approximate a causal graph; (iii) we introduce a style consistency loss that not only enforces the structure of style representations but also serves as a self-supervisory signal for test-time refinement on the fly. Experiment results on synthetic and real datasets show that our three proposed components significantly improve the robustness and reusability of the learned motion representations, outperforming prior state-of-the-art motion forecasting models for out-of-distribution generalization and low-shot transfer.                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div></li>
-      
+  <section class="teaching" id="teaching">
+    <div class="row">
+      <h2>Teaching</h2>
+      <p>
+      Parallel to my Data Science studies, I am highly involved in teaching. As Albert Einstein said, <em>"If you can't explain it simply, you don't understand it well enough"</em>. Teaching pushes me to think about fundamental concepts and explain them as clearly as possible, which ultimately allows me to understand the topics even better. In many cases, teaching assistants pick their favorite course and stick to it during their studies. I am doing it differently. I want to gain as much as possible from this experience, and so I decided to work on multiple areas: from Theoretical Computer Science to Software Engineering, and also a bit of Computer Networks.   
+      </p>       
+      <h3>Algorithms and Data Structures</h3>
+         <p>
+           <u>Topics:</u> Introduction to Algorithm Analysis (runtime, asymptotic notation, induction, divide-and-conquer, recursion), Sorting and Searching, Dynamic Programming, Graph algorithms (DFS, BFS, Topological sorting, algorithms for Shortest Paths, Minimum Spanning Trees, ...), Data Structures (queue, stack, heaps, binary search tree, AVL trees, red-black trees).
+         </p>
+         <p>
+          My responsibilities include:
+         </p>
+         <ul class="work__list">
+           <li>Holding weekly exercise session for about 25 students</li>
+           <li>Grading homeworks</li>
+           <li>Assisting the Professor during the Lectures</li>
+           <li>Preparing a summary to help the Students</li>
+         </ul>
+         <a href="https://www.cadmo.ethz.ch/education/lectures/HS19/DA/index.html" class = "btn">Course Website</a>
+         <a href="./documents/Algorithms1.pdf" download class = "btn">Summary</a> 
+         <a href="https://github.com/soelmicheletti/eth-algodat21" class = "btn">Slides HS21</a>
+         <a href="./PVK_Script.pdf" download class = "btn">PVK Script</a>
+         <p>
+           
+           
+         </p>
+      <h3>Algorithms and Probability</h3>
+         <p>
+           <u>Topics:</u> Graph Theory (Eulerian/ Hamilton paths, Matching, Coloring, Articulation nodes, Flows in Networks, ...), Introduction to Probability Theory (conditional probability, independence, Bayes formula, random variables, Chernoff bounds, ...), Las Vegas and Monte Carlo algorithms, Selection of Randomized Algorithms (Hashing, Short Longest Paths, Min Cuts, Smallest Enclosing Circle, Jarvis' Wrap, ...).             </p>
+         <p>
+          My responsibilities included:
+         </p>
+         <ul class="work__list">
+           <li>Holding weekly exercise session for about 25 students</li>
+           <li>Grading homeworks</li>
+           <li>Assisting the Professor during the Lectures</li>
+           <li>Preparing quizzes and mini-tests</li>
+           <li>Preparing a summary to help the Students</li>
+         </ul>
+         <a href="https://www.cadmo.ethz.ch/education/lectures/FS20/AW/index.html" class = "btn">Course Website</a>
+         <a href="./documents/Algorithms2.pdf" download class = "btn">Summary</a>  
+        <a href="http://www.quiz-maker.com/QW1VYXRCK" class = "btn">Quiz</a>
+         <p>
+           
+           
+         </p>
+      <h3>Parallel Programming</h3>
+         <p>
+           <u>Topics:</u> Introduction to Parallelism (Threads, Pipelining, Amdahl's and Gustafson's laws), Java techniques (Executor Service, Fork and Join, ...), how to ensure Mutual Exclusion (Locks, Atomic Operations, Transactional Memory), Distributed Systems (Consensus, Linearizability, Sequential Consistency, ...), Advanced Techniques (volatile fields, MPI, ...), and Parallel Algorithms.               </p>
+         <p>
+         My responsibilities included:
+         </p>
+         <ul class="work__list">
+           <li>Holding weekly exercise session for about 25 students</li>
+           <li>Grading homeworks</li>
+           <li>Helping the students implementing the algorithms in Java</li>
+           <li>Preparing a summary to help the Students</li>
+           </ul>
+         <a href="https://spcl.inf.ethz.ch/Teaching/2020-pp/" class = "btn">Course Website</a>
+         <a href="./documents/PP.pdf" download class = "btn">Summary</a> 
+         <p>
+           
+           
+         </p>
+      <h3>Computer Networks</h3>
+         <p>
+           <u>Topics:</u> Ideas and protocols from each OSI layer (DNS, Videos and CDNs, HTTP, TCP/ UDP, QUIC, Routing, BGP, ...) </p>
+         <p>
+         My responsibilities included:
+         </p>
+         <ul class="work__list">
+           <li>Grading homeworks</li>
+           <li>Assisting the Professor during the Lectures</li>
+           <li>Contributing to the preparation of the course project (about the Rapid Spanning Tree Protocol)</li>
+           </ul>
+         <a href="https://nd.ethz.ch/courses/computer-networks.html" class = "btn">Course Website</a>
     </div>
-
-    <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-      <h3 class="bibliography-year">2022</h3>
-    </div>
-  </div>
-
-  <!--2021-->
-  <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
-    <div class="col-sm-11 p-0">
-      
-     
-      <!--Yuehiang 2021 NeurIPS-->
-      <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
-        <div class="col-sm-1 p-0 abbr">
-          <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://nips.cc/" target="_blank">
-          NIPS
-          </a>
-        </div>
-        
-        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-          <div id="yuehiang2021" class="col p-0">
-            <h5 class="title mb-0">Towards Robust and Adaptive Motion Forecasting: A Causal Representation Perspective (short) </h5>
-            <div class="author">
-              <em> 
-                Yuejiang Liu;
-                <b>Riccardo Cadei</b>;
-                <a href="https://scholar.google.com/citations?user=UIhXQ64AAAAJ&hl=en" target="_blank">Alexandre Alahi</a>
-              </em>  
-            </div>
-
-            <div><p class="periodical font-italic">
-                Workshop in Distribution Shifts at NeurIPS, 2021
-              </p>
-            </div>
-    
-            <div class="col p-0">
-              <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#yuejiang2021neurips-abstract" role="button" aria-expanded="false" aria-controls="yuejiang2021neurips-abstract">Abstract</a>
-              <a class="badge grey waves-effect font-weight-light mr-1" href="https://openreview.net/pdf?id=MPqliTsloys" target="_blank">OpenReview</a>
-              <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/img/poster-nips2021.png" target="_blank">Poster</a>
-              <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/vita-epfl/causalmotion" target="_blank">Code</a>
-            </div>
-    
-            <div class="col mt-2 p-0">
-              <div id="yuejiang2021neurips-abstract" class="collapse">
-                <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                  Learning behavioral patterns from observational data has been a de-facto approach to motion forecasting. Yet, the current paradigm suffers from two fundamental shortcomings: brittle under covariate shift and inefficient for knowledge transfer. In this work, we propose to address these challenges from a causal representation perspective. We first introduce a causal formalism of motion forecasting, which casts the problem as a dynamic process with physical mechanisms, style confounders, and spurious correlations. We then propose two components that explicitly promote the robustness and reusability of the learned motion representations: (i) unlike the common practice of merging datasets collected from different locations, we exploit their subtle distinctions by means of an invariance loss function, which encourages the model to suppress spurious correlations and capture physical mechanisms; (ii) we devise a modular architecture that factorizes the representations of physical laws and motion styles in a structured way, and progressively prune their dense connections during training to approximate a sparse causal graph. We empirically validate the strength of the proposed method for robust generalization in controlled real-world experiments. We finally discuss the challenges and opportunities in the presence of style shifts through synthetic simulations.
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div></li>
-
-
-      <!--Castello 2021 JoP-->
-      <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
-        <div class="col-sm-1 p-0 abbr">
-          <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://cisbat.epfl.ch/" target="_blank">
-          JoP
-          </a>
-        </div>
-
-        <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-          <div id="castello2021" class="col p-0">
-            <h5 class="title mb-0">Quantification of the available area for rooftop photovoltaic installation from overhead imagery using convolutional neural networks</h5>
-            <div class="author">
-              <em><a href="https://scholar.google.com/citations?user=JFdVZCcAAAAJ&hl=en" target="_blank">Roberto Castello</a>; 
-                Alina Walch; 
-                Raphael Attias; 
-                <b>Riccardo Cadei</b>; 
-                Shasha Jiang; 
-                Jean-Louis Scartezzini</em>  
-            </div>
-
-            <div><p class="periodical font-italic">
-                Journal of Physics: Conference Series, 2021
-              </p>
-            </div>
-    
-            <div class="col p-0">
-              <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#castello2021-abstract" role="button" aria-expanded="false" aria-controls="castello2021-abstract">Abstract</a>
-              <a class="badge grey waves-effect font-weight-light mr-1" href="https://iopscience.iop.org/article/10.1088/1742-6596/2042/1/012002" target="_blank">IOPscience</a>
-              <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/riccardocadei/Rooftop-CNN-detection" target="_blank">Code</a>
-            </div>
-    
-            <div class="col mt-2 p-0">
-              <div id="castello2021-abstract" class="collapse">
-                <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                  The integration of solar technology in the built environment is realized mainly through rooftop-installed panels. In this paper, we combine state-of-the-art Machine Learning and computer vision techniques together with high-resolution overhead images to provide a geo-localization of the available rooftop surfaces for solar panel installation. We further associate them to the corresponding buildings by means of a geospatial post-processing approach. The stand-alone Convolutional Neural Network used to segment suitable rooftop areas reaches an intersection over union of 64% and an accuracy of 93%, while a post-processing step using building database improves the rejection of false positives. The model is applied to a case study area in the canton of Geneva and the results are compared with another recent method used in the literature to derive the available area.</em>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div></li>
-    </div>
-
-    
-    <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
-      <h3 class="bibliography-year">2021</h3>
-    </div>
-  </div>
-
-  </div>
+  </section>
 
   <!-- Footer -->
   <footer> 
@@ -373,16 +262,6 @@
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
-  </script>
-
-  <!-- Google Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-54519238-1', 'auto');
-    ga('send', 'pageview');
   </script>
 </body>
 </html>
