@@ -88,16 +88,64 @@
     <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
       <div class="col-sm-11 p-0">
 
-        <!--COBRA POSTER-->
+        <!--GIRAFFE POSTER-->
         <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
           <div class="col-sm-1 p-0 abbr">
-            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://iclr.cc/" target="_blank">
+            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 60px;" href="https://recomb.org/recomb2024/" target="_blank">
             RECOMB
             </a>
           </div>
           
           <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-            <div id="tec2023clim2pm" class="col p-0">
+            <div id="giraffe" class="col p-0">
+              <h5 class="title mb-0">Gene-level Inference of Regulatory effects As Factorizations of
+                Functions of Expressions (GIRAFFE)
+              </h5>
+              <div class="author">
+                <em> 
+                    <b>Soel Micheletti</b>;
+                    Alexander Marx;
+                    Julia Vogt;
+                    John Quackenbush;
+                    Jonas Fischer;
+                    Panagiotis Mandros;
+                </em>  
+              </div>
+  
+              <div>
+                <p class="periodical font-italic">
+                  Research in Computational Molecular Biology        
+                </p>
+              </div>
+      
+              <div class="col p-0">
+                <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#giraffe_poster" role="button" aria-expanded="false" aria-controls="tec2023clim2pm-abstract">Abstract</a>
+                <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/GIRAFFE_poster.pdf" target="_blank">Poster</a>
+              </div>
+      
+              <div class="col mt-2 p-0">
+                <div id="giraffe_poster" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                    Accurately estimating gene regulatory mechanisms is crucial to inform our understanding of important cellular processes, yielding new insights into disease progression and intervention design. Exiting methods suffer of one or multiple issues when it comes to interpretability, scalability to the human genome, and flexibility to incorporate covariates of interest such as clinical information about the samples. For instance, state-of-the-art algorithms either do not distinguish between enhancing and inhibitory regulation, or do not scale beyond a few hundreds genes. Moreover, not all existing methods are interpretable. They may incorporate complex non-linear relationships to optimize predictions, yet these are incompatible with human reasoning - a critical component for ensuring the safety, ethics, and accountability of models supporting oncology decisions. 
+                    For effective gene regulatory network inference, we propose GIRAFFE, a scalable matrix factorization-based algorithm to jointly infer regulatory effects and transcription factor activities from gene expression data. GIRAFFE integrates prior knowledge about regulation to guide the optimization, yielding an interpretable linear model. Moreover, it can be customized to the requirements of the downstream application by adjusting for variables of interest, such as confounders, or by adding sparsity constraints. We demonstrate the effectiveness of this approach with extensive experiments on synthetic, as well as real world data. Our algorithm outperforms state-of-the-art gene regulatory network inference methods in predicting interactions between transcription factors and target genes. In contrast to existing work, it is able to distinguish between activating and inhibitory effects, yielding plausible results in downstream applications including gene set enrichment analysis. 
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div></li>
+
+        <!--COBRA POSTER-->
+        <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
+          <div class="col-sm-1 p-0 abbr">
+            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 60px;" href="https://recomb.org/recomb2024/" target="_blank">
+            RECOMB
+            </a>
+          </div>
+          
+          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+            <div id="cobra_short" class="col p-0">
               <h5 class="title mb-0">Higher-order correction of persistent batch effects in
                 correlation networks (POSTER)
               </h5>
@@ -143,7 +191,7 @@
           </div>
           
           <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-            <div id="tec2023clim2pm" class="col p-0">
+            <div id="jaha" class="col p-0">
               <h5 class="title mb-0">Profiling Daily Life Performance Recovery in the Early Subacute Phase After Stroke Using a Graphical Modeling Approach
               </h5>
               <div class="author">
@@ -167,13 +215,13 @@
               </div>
       
               <div class="col p-0">
-                <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#tec2023clim2pm-abstract" role="button" aria-expanded="false" aria-controls="tec2023clim2pm-abstract">Abstract</a>
+                <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#jaha" role="button" aria-expanded="false" aria-controls="tec2023clim2pm-abstract">Abstract</a>
                 <a class="badge grey waves-effect font-weight-light mr-1" href="https://www.ahajournals.org/doi/full/10.1161/JAHA.123.030472" target="_blank">Paper</a>
                 <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/rauwuckl/CorrelationGraph4StrokeRecovery" target="_blank">Code</a>
               </div>
       
               <div class="col mt-2 p-0">
-                <div id="tec2023clim2pm-abstract" class="collapse">
+                <div id="jaha" class="collapse">
                   <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
                     Laboratory-based assessments have shown that stroke recovery is heterogeneous between patients and af- fected domains such as motor and language function. However, laboratory-based assessments are not ecologically valid and do not necessarily reflect patients’ daily life performance. Therefore, we aimed to give an innovative view on stroke recovery by profiling daily life performance recovery across domains in patients with early subacute stroke and determine their inter- relatedness, taking stroke localization into account.
                     Daily life performance was observed at neurorehabilitation admission and weekly thereafter until dis- charge, using a scale containing 7 daily life domains. Graphical modeling was applied to investigate the conditional independ- ence between recovery of these domains depending on stroke localization. There were 592 patients analyzed. Four clusters of interrelated domains were identified within the first 6weeks poststroke. The first cluster included recovery in learning and applying knowledge, general tasks and demands, and domestic life. The second cluster comprised recovery in self-care and general tasks and demands. The third cluster included recovery in mobility and self-care; it incorporated interpersonal interac- tions and relationships in left supratentorial stroke, and learning and applying knowledge in right supratentorial stroke. The final cluster included only communication recovery.
