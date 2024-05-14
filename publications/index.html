@@ -85,11 +85,56 @@
     
     <h1>Publications</h1>
   
-    <!--2023-->
     <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
       <div class="col-sm-11 p-0">
+
+        <!--COBRA POSTER-->
+        <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
+          <div class="col-sm-1 p-0 abbr">
+            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://iclr.cc/" target="_blank">
+            RECOMB
+            </a>
+          </div>
+          
+          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+            <div id="tec2023clim2pm" class="col p-0">
+              <h5 class="title mb-0">Higher-order correction of persistent batch effects in
+                correlation networks (POSTER)
+              </h5>
+              <div class="author">
+                <em> 
+                    <b>Soel Micheletti</b>;
+                    Daniel Schlauch;
+                    John Quackenbush;
+                    Marouen Ben Guebila;
+                </em>  
+              </div>
   
-        <!--Tec 2023 ICLR-->
+              <div>
+                <p class="periodical font-italic">
+                  Research in Computational Molecular Biology        
+                </p>
+              </div>
+      
+              <div class="col p-0">
+                <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#cobra_poster" role="button" aria-expanded="false" aria-controls="tec2023clim2pm-abstract">Abstract</a>
+                <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/COBRA_poster.pdf" target="_blank">Poster</a>
+              </div>
+      
+              <div class="col mt-2 p-0">
+                <div id="cobra_poster" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                    Systems biology methods often rely on correlations in gene expression profiles to infer co-expression networks, commonly used as input for gene regulatory network inference or to identify functional modules of co-expressed or co-regulated genes. While systematic biases, including batch effects, are known to induce spurious associations and confound differential gene expression analyses (DE), the impact of batch effects on gene co-expression has not been fully explored. Methods have been developed to adjust expression values, ensuring conditional independence of mean and variance from batch or other covariates for each gene. These adjustments have been shown to improve the fidelity of DE analysis. However, these methods do not address the potential for spurious differential co-expression (DC) between groups. Consequently, uncorrected, artifactual DC can skew the correlation structure, leading network inference methods that use gene co-expression to identify false, nonbiological associations, even when the input data is corrected using standard batch correction.
+                    In this work, we demonstrate the persistence of confounders in covariance after standard batch correction using synthetic and real-world gene expression data examples. Subsequently, we introduce Co-expression Batch Reduction Adjustment (COBRA), a method for computing a batch-corrected gene co-expression matrix based on estimating a conditional covariance matrix. COBRA estimates a reduced set of parameters expressing the co-expression matrix as a function of the sample covariates, allowing control for continuous and categorical covariates. COBRA is computationally efficient, leveraging the inherently modular structure of genomic data to estimate accurate gene regulatory associations and facilitate functional analysis for high-dimensional genomic data.
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div></li>
+  
+        <!--JAHA-->
         <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
           <div class="col-sm-1 p-0 abbr">
             <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://iclr.cc/" target="_blank">
