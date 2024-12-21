@@ -87,6 +87,59 @@
   
     <div class="row m-0 p-0">
       <div class="col-sm-11 p-0">
+        <!--Netsci-->
+        <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
+          <div class="col-sm-1 p-0 abbr">
+            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 60px;" href="https://www.biorxiv.org/content/10.1101/2024.11.05.622163v1.abstract" target="_blank">
+            BioRxiv
+            </a>
+          </div>
+          
+          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+            <div id="cobra_short" class="col p-0">
+              <h5 class="title mb-0">Reproducible processing of TCGA regulatory networks
+              </h5>
+              <div class="author">
+                <em> 
+                    Viola Fanfani; 
+                    Katherine H. Shutta; 
+                    Panagiotis Mandros; 
+                    Jonas Fischer; 
+                    Enakshi Saha; 
+                    <b>Soel Micheletti</b>;
+                    Chen Chen; 
+                    Marouen Ben Guebila;
+                    Camila M. Lopes-Ramos; 
+                    John Quackenbush
+                </em>  
+              </div>
+  
+              <div>
+                <p class="periodical font-italic">
+                  BiorXiv     
+                </p>
+              </div>
+      
+              <div class="col p-0">
+                <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#cobra" role="button" aria-expanded="false" aria-controls="tec2023clim2pm-abstract">Abstract</a>
+                <a class="badge grey waves-effect font-weight-light mr-1" href="https://www.biorxiv.org/content/10.1101/2024.11.05.622163v1.abstract" target="_blank">Paper</a>
+                <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/QuackenbushLab/NetworkDataCompanion" target="_blank">NetworkDataCompanion</a>
+                <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/QuackenbushLab/tcga-data-nf" target="_blank">Nextflow workflow</a>
+              </div>
+      
+              <div class="col mt-2 p-0">
+                <div id="cobra" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                    <b>Background: </b>Technological advances in sequencing and computation have allowed deep exploration of the molecular basis of diseases. Biological networks have proven to be a useful framework for interrogating omics data and modeling regulatory gene and protein interactions. Large collaborative projects, such as The Cancer Genome Atlas (TCGA), have provided a rich resource for building and validating new computational methods resulting in a plethora of open-source software for downloading, pre-processing, and analyzing those data. However, for an end-to-end analysis of regulatory networks a coherent and reusable workflow is essential to integrate all relevant packages into a robust pipeline.
+                    <b>Findings: </b>We developed tcga-data-nf, a Nextflow workflow that allows users to reproducibly infer regulatory networks from the thousands of samples in TCGA using a single command. The workflow can be divided into three main steps: multi-omics data, such as RNA-seq and methylation, are downloaded, preprocessed, and lastly used to infer regulatory network models with the netZoo software tools. The workflow is powered by the NetworkDataCompanion R package, a standalone collection of functions for managing, mapping, and filtering TCGA data. Here we show how the pipeline can be used to study the differences between colon cancer subtypes that could be explained by epigenetic mechanisms. Lastly, we provide pre-generated networks for the 10 most common cancer types that can be readily accessed.
+                    <b>Conclusions: </b>tcga-data-nf is a complete yet flexible and extensible framework that enables the reproducible inference and analysis of cancer regulatory networks, bridging a gap in the current universe of software tools.
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div></li></ol>
 
         <!--COBRA-->
         <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
@@ -106,7 +159,7 @@
                     <b>Soel Micheletti</b>;
                     Daniel Schlauch;
                     John Quackenbush;
-                    Marouen Ben Guebila;
+                    Marouen Ben Guebila
                 </em>  
               </div>
   
@@ -157,7 +210,7 @@
                     Julia Vogt;
                     John Quackenbush;
                     Jonas Fischer;
-                    Panagiotis Mandros;
+                    Panagiotis Mandros
                 </em>  
               </div>
   
@@ -204,7 +257,7 @@
                     <b>Soel Micheletti</b>;
                     Daniel Schlauch;
                     John Quackenbush;
-                    Marouen Ben Guebila;
+                    Marouen Ben Guebila
                 </em>  
               </div>
   
